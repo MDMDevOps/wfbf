@@ -47,7 +47,7 @@ function mdm_wp_cornerstone_autoload_register( $className ) {
 	// Append full path to class
 	$path = sprintf( '%s/mdm-wp-cornerstone/includes/%s.php', plugin_dir_path( __FILE__ ), $className );
 	// include the class...
-	include_once( $path );
+	// include_once( $path );
 	if( file_exists( $path ) ) {
 		include_once( $path );
 	}
