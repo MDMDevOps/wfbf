@@ -855,3 +855,17 @@ a.ghost-button {
 		}
 	}
 }
+ul.mdm-social-links {
+	li {
+		display: inline-block;
+		padding: .4rem;
+	}
+}
+
+.fl-rich-text {
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

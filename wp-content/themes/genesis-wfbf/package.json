@@ -8,17 +8,17 @@
         "url": "https://my.studiopress.com/themes/enterprise/"
     },
     "devDependencies": {
+        "autoprefixer": "9.8.6",
         "grunt": "latest",
-        "grunt-postcss": "latest",
+        "grunt-contrib-clean": "latest",
         "grunt-contrib-compass": "latest",
         "grunt-contrib-jshint": "latest",
         "grunt-contrib-uglify": "latest",
         "grunt-contrib-watch": "latest",
-        "grunt-contrib-clean": "latest",
-        "grunt-openport": "latest",
         "grunt-newer": "latest",
-        "pixrem": "latest",
-        "autoprefixer": "latest"
+        "grunt-openport": "latest",
+        "grunt-postcss": "latest",
+        "pixrem": "latest"
     },
     "browserslist": [
         "last 3 version"

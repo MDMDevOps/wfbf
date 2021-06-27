@@ -18,12 +18,18 @@
 if( class_exists( 'acf' ) && is_main_query() ) {
 	remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
 	add_action( 'genesis_entry_content', 'acf_do_post_content' );
+
+	// add_action( 'genesis_entry_content', 'genesis_do_post_content', 12 );
+	// var_dump(current_user_can( 'edit_posts' ));
+	// if ( current_user_can( 'edit_posts' ) ) {
+	// 	add_action( 'genesis_entry_content', 'genesis_do_post_content', 12 );
+	// }
 }
 
 function acf_do_post_content() {
 
 	// Re-add our default action back in, so other things can use it
-	add_action( 'genesis_entry_content', 'genesis_do_post_content' );
+	// add_action( 'genesis_entry_content', 'genesis_do_post_content' );
 	// Remove this action for nested loops
 	remove_action( 'genesis_entry_content', 'acf_do_post_content' );
 	// Continue with our content...
@@ -56,6 +62,13 @@ function acf_do_post_content() {
 		genesis_markup( array( 'close' => '</section>', 'context' => 'acf_page_section' ) );
 
 	endwhile; endif;
+
+	if ( current_user_can( 'edit_posts' ) && class_exists( 'FLBuilderModel' ) && FLBuilderModel::is_builder_enabled() ) {
+		// echo 'Endwhile';
+		genesis_do_post_content();
+		// the_content();
+	}
+
 }
 
 function acf_do_layout_legislative_links() {
@@ -80,7 +93,8 @@ add_action( 'acf_do_layout_standard_content', 'acf_do_layout_standard_content' )
  * Output function for single line fields
  */
 function acf_do_layout_single_line_text() {
-	echo apply_filters( 'the_content', get_sub_field( 'content' ) );
+	echo get_sub_field( 'content' );
+	// echo apply_filters( 'the_content', get_sub_field( 'content' ) );
 }
 add_action( 'acf_do_layout_single_line_text', 'acf_do_layout_single_line_text' );
 

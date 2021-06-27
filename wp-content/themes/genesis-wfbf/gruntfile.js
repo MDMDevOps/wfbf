@@ -20,7 +20,7 @@ module.exports = function(grunt) {
                     outputStyle : 'compressed',
                     cacheDir    : 'styles/.sass-cache',
                     environment : 'production',
-                    sourcemap   : true
+                    sourcemap   : false
                 },
             },
             development : {
@@ -30,16 +30,15 @@ module.exports = function(grunt) {
                     cacheDir    : 'styles/.sass-cache',
                     environment : 'development',
                     outputStyle : 'expanded',
-                    sourcemap   : true
+                    sourcemap   : false
                 },
             },
         },
         postcss: {
             options: {
-              map: true, // inline sourcemaps
               processors: [
-                require('pixrem')(), // add fallbacks for rem units
-                require('autoprefixer') // add vendor prefixes
+                require('pixrem'), // add fallbacks for rem units
+                require('autoprefixer'), // add vendor prefixes
               ]
             },
             public : {
@@ -68,7 +67,7 @@ module.exports = function(grunt) {
         // Combine & minify JS
         uglify : {
             options : {
-              sourceMap : true
+              sourceMap : false
             },
             public : {
                 files : {

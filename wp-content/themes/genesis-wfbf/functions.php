@@ -12,7 +12,7 @@ include_once( get_stylesheet_directory() . '/lib/class_wp_subnav_widget.php' );
 if ( ! isset( $content_width ) ) {
 	$content_width = 1920;
 }
-
+add_filter( 'fl_builder_render_assets_inline', '__return_true' );
 // function jeherve_custom_tiled_gallery_width() {
 //     return '800';
 // }
@@ -24,7 +24,7 @@ load_child_theme_textdomain( 'enterprise', apply_filters( 'child_theme_textdomai
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Enterprise Pro Theme', 'enterprise' ) );
 define( 'CHILD_THEME_URL', 'http://my.studiopress.com/themes/enterprise/' );
-define( 'CHILD_THEME_VERSION', '2.1.2' );
+define( 'CHILD_THEME_VERSION', '2.2.3' );
 add_theme_support( 'genesis-accessibility', array( '404-page', 'drop-down-menu', 'headings', 'rems', 'search-form' ) );
 
 // Add viewport meta tag for mobile browsers.
@@ -386,7 +386,7 @@ add_action( 'genesis_before', 'wpstudio_add_woo_sidebar', 20 );
 function wpstudio_add_woo_sidebar() {
 
     if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
-        if( is_woocommerce() ) {
+        if( function_exists( 'is_woocommerce' ) && is_woocommerce() ) {
             remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
             add_action( 'genesis_sidebar', 'wpstudio_woo_sidebar' );
         }
@@ -416,3 +416,36 @@ add_filter( 'woocommerce_defer_transactional_emails', '__return_true' );
 
 
 
+function get_page_by_template($template = 'templates/page_advanced_custom_fields.php') {
+	$args = array(
+	    'post_type' => 'page',
+	    'posts_per_page' => -1,
+	    'meta_query' => array(
+	        array(
+	            'key' => '_wp_page_template',
+	            'value' => 'templates/page_advanced_custom_fields.php'
+	        )
+	    )
+	);
+	$the_pages = new WP_Query( $args );
+
+	if( $the_pages->have_posts() ){
+	    while( $the_pages->have_posts() ){
+	        $the_pages->the_post();
+	        the_title();
+	        echo '<br>';
+	    }
+	}
+	wp_reset_postdata();
+  // $args = array(
+  //   'meta_key' => '_wp_page_template',
+  //   'meta_value' => 'templates/page_advanced_custom_fields.php',
+  // );
+  // $pages = get_pages($args);
+  // echo count($pages);
+  // foreach( $pages as $page ) {
+  // 	echo $page->post_title . '<br>';
+  // }
+  // var_dump(get_post_meta(get_the_id(), '_wp_page_template', true));
+}
+// add_action( 'wp', 'get_page_by_template' );
