@@ -102,4 +102,17 @@ class Module extends \FLBuilderModule {
 
 	}
 
+	/**
+	 * Helper function to expose errors and objects and stuff
+	 *
+	 * Prints PHP objects, errors, etc to the browswer console using either the
+	 * 'wp_footer', or 'admin_footer' hooks. Which are the final hooks that run reliably.
+	 * @since  2.1.0
+	 */
+	public function expose( $object ) {
+		add_action( 'shutdown', function() use( $object ) {
+			printf( '<script>console.log(%s);</script>', json_encode( $object, JSON_PARTIAL_OUTPUT_ON_ERROR, JSON_PRETTY_PRINT ) );
+		}, 9999 );
+	}
+
 }

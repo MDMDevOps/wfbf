@@ -323,6 +323,7 @@ class Css extends Framework {
 		$vars = [];
 
 		foreach( $matches[1] as $var ) {
+			$var = str_replace( ['_top', '_right', '_bottom', '_left'], '', $var );
 			$vars[trim( $var )] = 'false';
 		}
 

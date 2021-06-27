@@ -45,6 +45,7 @@ a.bbdk-button {
 	@if $button_padding_left {
 		padding-left: $button_padding_left;
 	}
+	padding-left: $button_padding_left;
 	&:hover,
 	&:focus {
 		@if $color_hover {
