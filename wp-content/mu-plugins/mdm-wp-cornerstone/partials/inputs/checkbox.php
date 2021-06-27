@@ -1,0 +1,1 @@
+<label for="<?php echo $field['field_id']; ?>"><input type="checkbox" class="widefat" name="<?php echo $field['field_id']; ?>" id="<?php echo $field['field_id']; ?>" value="on" <?php checked( $field['value'], 'on', true ); ?>>&nbsp;<span class="label"><?php echo $field['label']; ?></span></label>

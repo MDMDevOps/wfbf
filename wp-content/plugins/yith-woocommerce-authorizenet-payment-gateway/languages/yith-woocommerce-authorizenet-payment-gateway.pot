@@ -1,0 +1,661 @@
+# Copyright (C) 2020 YITH WooCommerce Authorize.net Payment Gateway
+# This file is distributed under the same license as the YITH WooCommerce Authorize.net Payment Gateway package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Authorize.net Payment Gateway\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2020-11-10 13:37:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Language-Team: YITH <plugins@yithemes.com>\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+"X-Poedit-SearchPathExcluded-1: plugin-upgrade\n"
+
+#: includes/class.yith-wcauthnet-admin.php:78
+msgid "Credit Card Settings"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-admin.php:79
+msgid "Premium Version"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-admin.php:120
+#: includes/class.yith-wcauthnet-admin.php:121
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:80
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:314
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:89
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:294
+msgid "Authorize.net"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-admin.php:123
+msgid ""
+"Adds a new gateway to your e-commerce allowing you to accept payments "
+"through credit cards and process transactions with Authorize.net reliability."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-admin.php:205
+msgid "YITH Authorize.net"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-admin.php:206
+msgid ""
+"In the YIT Plugins tab you can find the YITH WooCommerce Authorize.net "
+"options. From this menu, you can access all the settings of the YITH plugins "
+"activated. YITH Authorize.net is available in an outstanding PREMIUM version "
+"with many new options, <a href=\"%s\">discover it now</a>."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:81
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:90
+msgid "Pay with Authorize.net"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:88
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:171
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:97
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:163
+#: plugin-options/credit_card-options.php:143
+msgid "Proceed to Authorize.net"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:149
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:141
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:151
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:143
+msgid "Enable Authorize.net Payment"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:155
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:147
+#: plugin-options/credit_card-options.php:124
+msgid "Title"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:157
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:149
+msgid ""
+"This option lets you change the title that users see during the checkout."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:158
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:150
+#: plugin-options/credit_card-options.php:127
+msgid "Authorize.net Payment"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:162
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:154
+#: plugin-options/credit_card-options.php:132
+msgid "Description"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:164
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:156
+msgid ""
+"This option lets you change the description that users see during checkout."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:165
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:157
+#: plugin-options/credit_card-options.php:135
+msgid "Accepts Payments. Anywhere"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:168
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:160
+msgid "Order Button Text"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:170
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:162
+msgid ""
+"This option lets you change the label of the button that users see during "
+"the checkout."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:175
+#: plugin-options/credit_card-options.php:148
+msgid "Show credit card icons"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:177
+msgid "Enable to show credit card icons in checkout page"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:181
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:167
+msgid "Acceptance logos"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:183
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:169
+msgid "Select which credit card logo to display on your checkout page"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:189
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:175
+#: plugin-options/credit_card-options.php:167
+msgid "Visa"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:190
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:176
+#: plugin-options/credit_card-options.php:168
+msgid "MasterCard"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:191
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:177
+#: plugin-options/credit_card-options.php:169
+msgid "American Express"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:192
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:178
+#: plugin-options/credit_card-options.php:170
+msgid "Discover"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:193
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:179
+#: plugin-options/credit_card-options.php:171
+msgid "Diner's Club"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:194
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:180
+#: plugin-options/credit_card-options.php:172
+msgid "JCB"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:199
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:185
+#: plugin-options/credit_card-options.php:58
+msgid "Login ID"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:201
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:187
+msgid ""
+"Univocal ID login associated to the account of the admin (it can be "
+"recovered in the \"API Login ID and Transaction Key\" section)"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:204
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:190
+#: plugin-options/credit_card-options.php:65
+msgid "Transaction Key"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:206
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:192
+msgid ""
+"A unique key used to validate requests to Authorize.net (it can be recovered "
+"in the \"API Login ID and Transaction Key\" section)"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:209
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:200
+msgid "Enable Authorize.net sandbox"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:211
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:202
+msgid "Activate the sandbox mode to test the configuration"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:214
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:205
+msgid "Transaction type"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:216
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:207
+msgid "Select which type of transaction you want to send"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:221
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:212
+msgid "Authorize & Capture"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:222
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:213
+msgid "Authorize only"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:227
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:218
+#: plugin-options/credit_card-options.php:85
+msgid "Debug Log"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:229
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:220
+msgid "Log of the Authorize.net events inside <code>%s</code>"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:232
+#: plugin-options/credit_card-options.php:96
+msgid "Config Receipt URL"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:235
+#: plugin-options/credit_card-options.php:98
+msgid ""
+"In order to correctly process payments, you'll need to set up Receipt URL "
+"for this site on your Authorize dashboard. Navigate to Authorize.net "
+"Dashboard -> Account -> Response/Receipt URLs, and add a new item with the "
+"following url: <code>%s</code>"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:298
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:278
+msgid "Please enter Login ID and Transaction Key for Authorize.net gateway."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:310
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:290
+msgid "Settings"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:316
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:296
+msgid "Getting started"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:318
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:298
+msgid ""
+"An Authorize.Net Payment Gateway account allows you to accept credit cards "
+"and electronic checks from websites and Internet auction sites. Our "
+"solutions are designed to save time and money for small- to medium-sized "
+"businesses."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:321
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:301
+msgid "Sign up now"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:322
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:302
+msgid "Learn more"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:387
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:357
+msgid "Cancel Payment"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:453
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:424
+msgid "N/D"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:464
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:435
+msgid "Authorize.net API error: unknown error."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:465
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:436
+msgid "Unknown error"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:484
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:486
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:455
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:457
+msgid "Validation error: Authorize.net amounts do not match with (%s)."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:497
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:499
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:468
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:470
+msgid ""
+"Validation error: Authorize.net responses from a different email address "
+"than (%s)."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:505
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:493
+msgid "Authorize.net payment completed (message: %s). Transaction ID: %s"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:520
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:508
+msgid "Payment error: %s"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-privacy.php:46
+msgid "While you visit our site, we’ll track:"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-privacy.php:48
+msgid ""
+"Cards unique identifiers: these IDs, returned by Authorize.net when "
+"submitting cards, will be stored to help you process a faster checkout next "
+"time you purchase on our store"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-privacy.php:49
+msgid ""
+"User unique identifier: this ID is used to uniquely identify user on "
+"Authorize platform, and create charge/refunds."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-privacy.php:53
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-privacy.php:55
+msgid ""
+"All data returned by Authorize.net, including (but not limited to) cards’ "
+"unique ID and users’ details"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-privacy.php:57
+msgid ""
+"Our team members have access to this information to track user’s identity on "
+"Authorize.net’s server"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-privacy.php:60
+msgid ""
+"We accept payments through Authorize.net. When processing payments, some of "
+"your data will be passed to Authorize.net, including information required to "
+"process or support the payment, such as the purchase total and billing "
+"information."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-privacy.php:61
+msgid ""
+"Please see the <a href=\"https://www.authorize.net/company/privacy/"
+"\">Authorize.net Privacy Policy</a> for more details."
+msgstr ""
+
+#: includes/class.yith-wcauthnet-privacy.php:81
+msgid "Authorize.net data"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-privacy.php:114
+msgid "Removed Authorize's customer data."
+msgstr ""
+
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:195
+msgid "Md5 Hash"
+msgstr ""
+
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:197
+msgid ""
+"A unique key used to validate the answers from Authorize.net (it can be set "
+"in the \"MD5 Hash\" section). You can activate this mode and set these "
+"details of your Authorize.net dashboard in Account -> Md5 Hash. The check "
+"will be done only in redirect mode, as the API connection is already "
+"protected with SSL."
+msgstr ""
+
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:484
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:486
+msgid "Validation error: MD5 Hash control failed."
+msgstr ""
+
+#: init.php:127
+msgid ""
+"%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+
+#: plugin-options/credit_card-options.php:29
+msgid "Credit card payment settings"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:36
+msgid "Enable YITH Authorize.net"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:37
+msgid ""
+"Choose whether to enable or not the Authorize.net payment method through "
+"credit cards"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:45
+msgid "Environment"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:46
+msgid ""
+"Choose whether to process real transactions or simulated transactions using "
+"a sandbox"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:49
+msgid "Live"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:50
+msgid "Sandbox"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:59
+msgid ""
+"Enter the univocal ID associated to the admin's account.<br/>It can be "
+"retrieved in the \"<a href=\"https://support.authorize.net/s/article/How-do-"
+"I-obtain-my-API-Login-ID-and-Transaction-Key\">API Login ID and Transaction "
+"Key</a>\" section"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:66
+msgid ""
+"Enter the unique key used to validate requests to Authorize.net.<br/>It can "
+"be retrieved in the \"<a href=\"https://support.authorize.net/s/article/How-"
+"do-I-obtain-my-API-Login-ID-and-Transaction-Key\">API Login ID and "
+"Transaction Key</a>\" section"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:72
+msgid "Transation type"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:73
+msgid "Choose whether to capture funds immediately or authorize payment only"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:76
+msgid ""
+"Authorize only - Authorize payments without taking money from customer's "
+"account"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:77
+msgid ""
+"Authorize and capture - Authorize payments and automatically take funds from "
+"customer's account"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:86
+msgid "Enable to save a log of the Authorize.net events inside <code>%s</code>"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:117
+msgid "Customization"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:125
+msgid "Enter a title to identify this payment method during the checkout"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:133
+msgid "Enter an optional description for this payment method"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:140
+msgid "Order button label"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:141
+msgid "Enter the text for the order button"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:149
+msgid "Enable to show credit card icons on Checkout page"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:157
+msgid "Credit card icons to show"
+msgstr ""
+
+#: plugin-options/credit_card-options.php:158
+msgid "Choose which credit card icon to show on Checkout page"
+msgstr ""
+
+#: plugin-options/video-box.php:23
+msgid "Upgrade to the PREMIUM VERSION"
+msgstr ""
+
+#: plugin-options/video-box.php:26 plugin-options/video-box.php:33
+msgid "YITH WooCommerce Authorize.net"
+msgstr ""
+
+#: plugin-options/video-box.php:27
+msgid "Discover the Advanced Features"
+msgstr ""
+
+#: plugin-options/video-box.php:28
+msgid ""
+"Upgrade to the PREMIUM VERSION of YITH WooCommerce Authorize.net to benefit "
+"from all features!"
+msgstr ""
+
+#: plugin-options/video-box.php:35 plugin-options/video-box.php:39
+msgid "Get Support and Pro Features"
+msgstr ""
+
+#: plugin-options/video-box.php:36
+msgid ""
+"By purchasing the premium version of the plugin, you will take advantage of "
+"the advanced features of the product and you will get one year of free "
+"updates and support through our platform available 24h/24."
+msgstr ""
+
+#: templates/admin/premium.php:221 templates/admin/premium.php:329
+msgid ""
+"Upgrade to the <span class=\"highlight\">premium version</span> of <span "
+"class=\"highlight\">YITH WooCommerce Authorize.net Payment Gateway</span> to "
+"benefit from all features!"
+msgstr ""
+
+#: templates/admin/premium.php:225 templates/admin/premium.php:333
+msgid "UPGRADE"
+msgstr ""
+
+#: templates/admin/premium.php:226 templates/admin/premium.php:334
+msgid "to the premium version"
+msgstr ""
+
+#: templates/admin/premium.php:232
+msgid "Premium Features"
+msgstr ""
+
+#: templates/admin/premium.php:240
+msgid "TRANSACTION MODE"
+msgstr ""
+
+#: templates/admin/premium.php:244
+msgid ""
+"The customers that buy with Authorize.net could complete their payment in "
+"two ways: on the same page of the store (with the \"API\" mode), or on the "
+"payment page of Authorize.net (with the \"Redirect\" mode)."
+msgstr ""
+
+#: templates/admin/premium.php:255
+msgid "PAYMENT WITH CREDIT CARD"
+msgstr ""
+
+#: templates/admin/premium.php:259
+msgid ""
+"The credit card becomes a new way of payment for whoever wants to buy from "
+"your shop. Authorize.net will give to your clients the chance to pay the "
+"order with a new credit card, or select another one already used, storing "
+"its details."
+msgstr ""
+
+#: templates/admin/premium.php:276
+msgid "ECHECK"
+msgstr ""
+
+#: templates/admin/premium.php:280
+msgid ""
+"You can activate the eCheck payment method, which will be available for "
+"users during the checkout among the other options."
+msgstr ""
+
+#: templates/admin/premium.php:291
+msgid "ITEMIZED ORDERS"
+msgstr ""
+
+#: templates/admin/premium.php:295
+msgid ""
+"An option tailored to show the order details both in the checkout during the "
+"purchase, and later in the invoice. Your clients won't see just the amount "
+"of the order, but also how it is composed."
+msgstr ""
+
+#: templates/admin/premium.php:312
+msgid "REFUND"
+msgstr ""
+
+#: templates/admin/premium.php:316
+msgid ""
+"The refund is now quick and easy. You will just have to go to the order page "
+"you are interested in, and with the related button, the amount that you will "
+"write will be refunded directly on the client's credit card."
+msgstr ""
+
+#: templates/admin/settings-tab.php:21
+msgid "Save changes"
+msgstr ""
+
+#: templates/authorize-net-payment-form.php:76
+msgid "Pay on Authorize.net"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "YITH WooCommerce Authorize.net Payment Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-authorize-net/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH WooCommerce Authorize.net Payment Gateway</strong></code> "
+"adds a new gateway to your e-commerce allowing you to accept payments "
+"through credit cards and process transactions with Authorize.net "
+"reliability. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more "
+"plugins for your e-commerce on <strong>YITH</strong></a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr ""

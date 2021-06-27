@@ -1,0 +1,26 @@
+{
+    "name": "WFBF-Genesis",
+    "description": "Genesis Child Theme",
+    "license": "GPL-2.0",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://my.studiopress.com/themes/enterprise/"
+    },
+    "devDependencies": {
+        "grunt": "latest",
+        "grunt-postcss": "latest",
+        "grunt-contrib-compass": "latest",
+        "grunt-contrib-jshint": "latest",
+        "grunt-contrib-uglify": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-contrib-clean": "latest",
+        "grunt-openport": "latest",
+        "grunt-newer": "latest",
+        "pixrem": "latest",
+        "autoprefixer": "latest"
+    },
+    "browserslist": [
+        "last 3 version"
+    ]
+}

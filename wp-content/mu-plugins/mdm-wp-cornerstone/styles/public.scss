@@ -1,0 +1,11 @@
+@import 'libs/variables';
+@import 'libs/mixins';
+@import 'libs/grid';
+@import 'libs/toolbox';
+
+ul.mdm-social-links {
+	li {
+		display: inline-block;
+		padding: .4rem;
+	}
+}

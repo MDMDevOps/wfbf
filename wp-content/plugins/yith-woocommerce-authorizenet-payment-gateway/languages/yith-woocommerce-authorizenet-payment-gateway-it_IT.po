@@ -1,0 +1,1391 @@
+# Translation of Plugins - YITH WooCommerce Authorize.net Payment Gateway - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - YITH WooCommerce Authorize.net Payment Gateway - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - YITH WooCommerce Authorize.net Payment Gateway "
+"- Stable (latest release)\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2020-09-17 15:40:34+00:00\n"
+"PO-Revision-Date: 2020-07-14 20:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2\n"
+
+#: includes/class.yith-wcauthnet-admin.php:78
+msgid "Credit Card Settings"
+msgstr "Impostazioni carte di credito"
+
+#: includes/class.yith-wcauthnet-admin.php:79
+msgid "Premium Version"
+msgstr "Versione premium"
+
+#: includes/class.yith-wcauthnet-admin.php:120
+#: includes/class.yith-wcauthnet-admin.php:121
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:80
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:314
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:89
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:294
+msgid "Authorize.net"
+msgstr "Authorize.net"
+
+#: includes/class.yith-wcauthnet-admin.php:123
+msgid ""
+"Adds a new gateway to your e-commerce allowing you to accept payments "
+"through credit cards and process transactions with Authorize.net reliability."
+msgstr ""
+"Aggiunge un nuovo gateway al tuo e-commerce permettendoti di accettare "
+"pagamenti con carte di credito e di elaborare transazioni con l'affidabilità "
+"di Authorize.net."
+
+#: includes/class.yith-wcauthnet-admin.php:205
+msgid "YITH Authorize.net"
+msgstr "YITH Authorize.net"
+
+#: includes/class.yith-wcauthnet-admin.php:206
+msgid ""
+"In the YIT Plugins tab you can find the YITH WooCommerce Authorize.net "
+"options. From this menu, you can access all the settings of the YITH plugins "
+"activated. YITH Authorize.net is available in an outstanding PREMIUM version "
+"with many new options, <a href=\"%s\">discover it now</a>."
+msgstr ""
+"Nella scheda YITH Plugins puoi trovare le opzioni di YITH WooCommerce "
+"Authorize.net. Da questo menu puoi accedere a tutte le impostazioni dei "
+"plugin YITH attivati. YITH Authorize.net è disponibile in un'eccezionale "
+"versione PREMIUM con molte nuove opzioni, <a href=\"%s\">scoprila ora</a>."
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:81
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:90
+msgid "Pay with Authorize.net"
+msgstr "Paga con Authorize.net"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:88
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:171
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:97
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:163
+#: plugin-options/credit_card-options.php:143
+msgid "Proceed to Authorize.net"
+msgstr "Procedi con Authorize.net"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:149
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:141
+msgid "Enable/Disable"
+msgstr "Attiva/Disattiva"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:151
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:143
+msgid "Enable Authorize.net Payment"
+msgstr "Abilita pagamento Authorize.net"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:155
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:147
+#: plugin-options/credit_card-options.php:124
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:157
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:149
+msgid ""
+"This option lets you change the title that users see during the checkout."
+msgstr ""
+"Questa opzione ti permette di cambiare il titolo che gli utenti vedono "
+"durante il checkout."
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:158
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:150
+#: plugin-options/credit_card-options.php:127
+msgid "Authorize.net Payment"
+msgstr "Pagamento Authorize.net"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:162
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:154
+#: plugin-options/credit_card-options.php:132
+msgid "Description"
+msgstr "Descrizione"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:164
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:156
+msgid ""
+"This option lets you change the description that users see during checkout."
+msgstr ""
+"Questa opzione ti permette di cambiare la descrizione che gli utenti vedono "
+"durante il checkout."
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:165
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:157
+#: plugin-options/credit_card-options.php:135
+msgid "Accepts Payments. Anywhere"
+msgstr "Accetta pagamenti. Ovunque"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:168
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:160
+msgid "Order Button Text"
+msgstr "Testo del pulsante Ordina"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:170
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:162
+msgid ""
+"This option lets you change the label of the button that users see during "
+"the checkout."
+msgstr ""
+"Questa opzione ti permette di cambiare l'etichetta del pulsante che gli "
+"utenti vedono durante il checkout."
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:175
+#: plugin-options/credit_card-options.php:148
+msgid "Show credit card icons"
+msgstr "Mostra le icone delle carte di credito"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:177
+msgid "Enable to show credit card icons in checkout page"
+msgstr ""
+"Attiva per mostrare le icone delle carte di credito nella pagina Checkout"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:181
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:167
+msgid "Acceptance logos"
+msgstr "Loghi accettazione"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:183
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:169
+msgid "Select which credit card logo to display on your checkout page"
+msgstr ""
+"Seleziona il logo della carta di credito da mostrare nella pagina checkout"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:189
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:175
+#: plugin-options/credit_card-options.php:167
+msgid "Visa"
+msgstr "Visa"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:190
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:176
+#: plugin-options/credit_card-options.php:168
+msgid "MasterCard"
+msgstr "MasterCard"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:191
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:177
+#: plugin-options/credit_card-options.php:169
+msgid "American Express"
+msgstr "American Express"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:192
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:178
+#: plugin-options/credit_card-options.php:170
+msgid "Discover"
+msgstr "Discover"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:193
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:179
+#: plugin-options/credit_card-options.php:171
+msgid "Diner's Club"
+msgstr "Diner's Club"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:194
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:180
+#: plugin-options/credit_card-options.php:172
+msgid "JCB"
+msgstr "JCB"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:199
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:185
+#: plugin-options/credit_card-options.php:58
+msgid "Login ID"
+msgstr "Login ID"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:201
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:187
+msgid ""
+"Univocal ID login associated to the account of the admin (it can be "
+"recovered in the \"API Login ID and Transaction Key\" section)"
+msgstr ""
+"Login ID univoco associato all'account dell'amministratore (può essere "
+"recuperato nella sezione \"API Login ID and Transaction Key\")"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:204
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:190
+#: plugin-options/credit_card-options.php:65
+msgid "Transaction Key"
+msgstr "Transaction Key"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:206
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:192
+msgid ""
+"A unique key used to validate requests to Authorize.net (it can be recovered "
+"in the \"API Login ID and Transaction Key\" section)"
+msgstr ""
+"Una chiave univoca usata per validare le richieste per Authorize.net (può "
+"essere recuperata nella sezione \"API Login ID and Transaction Key\")"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:209
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:200
+msgid "Enable Authorize.net sandbox"
+msgstr "Attiva sandbox Authorize.net"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:211
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:202
+msgid "Activate the sandbox mode to test the configuration"
+msgstr "Attiva la modalità sandbox per testare la configurazione"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:214
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:205
+msgid "Transaction type"
+msgstr "Tipo transazione"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:216
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:207
+msgid "Select which type of transaction you want to send"
+msgstr "SEleziona che tipo di transazione vuoi inviare"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:221
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:212
+msgid "Authorize & Capture"
+msgstr "Autorizza & incassa"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:222
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:213
+msgid "Authorize only"
+msgstr "Autorizza soltanto"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:227
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:218
+#: plugin-options/credit_card-options.php:85
+msgid "Debug Log"
+msgstr "Log debug"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:229
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:220
+msgid "Log of the Authorize.net events inside <code>%s</code>"
+msgstr "Log degli eventi Authorize.net in <code>%s</code>"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:232
+#: plugin-options/credit_card-options.php:96
+msgid "Config Receipt URL"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:235
+#: plugin-options/credit_card-options.php:98
+msgid ""
+"In order to correctly process payments, you'll need to set up Receipt URL "
+"for this site on your Authorize dashboard. Navigate to Authorize.net "
+"Dashboard -> Account -> Response/Receipt URLs, and add a new item with the "
+"following url: <code>%s</code>"
+msgstr ""
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:298
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:278
+msgid "Please enter Login ID and Transaction Key for Authorize.net gateway."
+msgstr ""
+"Per favore inserisci un ID login e chiave di transazione per il gateway "
+"Authorize.net."
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:310
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:290
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:316
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:296
+msgid "Getting started"
+msgstr "Per cominciare"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:318
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:298
+msgid ""
+"An Authorize.Net Payment Gateway account allows you to accept credit cards "
+"and electronic checks from websites and Internet auction sites. Our "
+"solutions are designed to save time and money for small- to medium-sized "
+"businesses."
+msgstr ""
+"Un account del gateway Authorize.net ti permette di accettare carte di "
+"credito ed assegni elettronici dai siti, anche di aste, internet. Le nostre "
+"soluzioni sono ideate per far risparmiare tempo e denaro alle piccole-medio "
+"imprese."
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:321
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:301
+msgid "Sign up now"
+msgstr "Iscriviti ora"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:322
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:302
+msgid "Learn more"
+msgstr "Per saperne di più"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:387
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:357
+msgid "Cancel Payment"
+msgstr "Annulla pagamento"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:453
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:424
+msgid "N/D"
+msgstr "N/D"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:464
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:435
+msgid "Authorize.net API error: unknown error."
+msgstr "Errore API Authorize.net: errore sconosciuto."
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:465
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:436
+msgid "Unknown error"
+msgstr "Errore sconosciuto"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:484
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:486
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:455
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:457
+msgid "Validation error: Authorize.net amounts do not match with (%s)."
+msgstr ""
+"Errore validazione: gli importi Authorize.net non corrispondono con (%s)."
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:497
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:499
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:468
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:470
+msgid ""
+"Validation error: Authorize.net responses from a different email address "
+"than (%s)."
+msgstr ""
+"Errore validazione: risposte Authorize.net da un indirizzo email diverso da "
+"(%s)."
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:505
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:493
+msgid "Authorize.net payment completed (message: %s). Transaction ID: %s"
+msgstr "Pagamento Authorize.net completato (messaggio %s). ID transazione: %s"
+
+#: includes/class.yith-wcauthnet-credit-card-gateway.php:520
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:508
+msgid "Payment error: %s"
+msgstr "Errore pagamento: %s"
+
+#: includes/class.yith-wcauthnet-privacy.php:46
+msgid "While you visit our site, we’ll track:"
+msgstr "Mentre visiti il nostro sito terremo traccia di:"
+
+#: includes/class.yith-wcauthnet-privacy.php:48
+msgid ""
+"Cards unique identifiers: these IDs, returned by Authorize.net when "
+"submitting cards, will be stored to help you process a faster checkout next "
+"time you purchase on our store"
+msgstr ""
+"Identificatori unici delle carte: questi ID, restituiti da Authorize.net "
+"durante l'inserimento delle carte, verranno salvati per aiutarti ad "
+"elaborare un pagamento più rapido la prossima volta che acquisterai sul "
+"nostro negozio"
+
+#: includes/class.yith-wcauthnet-privacy.php:49
+msgid ""
+"User unique identifier: this ID is used to uniquely identify user on "
+"Authorize platform, and create charge/refunds."
+msgstr ""
+"Identificatore unico dell'utente: questo ID è usato per identificare "
+"l'utente sulla piattaforma Authorize.net e per creare addebiti/rimborsi."
+
+#: includes/class.yith-wcauthnet-privacy.php:53
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+"I membri del nostro team hanno accesso alle informazioni che ci fornisci. Ad "
+"esempio sia amministratori che shop manager possono accedere a:"
+
+#: includes/class.yith-wcauthnet-privacy.php:55
+msgid ""
+"All data returned by Authorize.net, including (but not limited to) cards’ "
+"unique ID and users’ details"
+msgstr ""
+"Tutti i dati restituiti da Authorize.net, inclusi (ma non limitati a) l'ID "
+"delle carte e i dettagli dell'utente"
+
+#: includes/class.yith-wcauthnet-privacy.php:57
+msgid ""
+"Our team members have access to this information to track user’s identity on "
+"Authorize.net’s server"
+msgstr ""
+"I membri del nostro team hanno accesso a queste informazioni per seguire "
+"l'identità dell'utente sul server di Authorize.net"
+
+#: includes/class.yith-wcauthnet-privacy.php:60
+msgid ""
+"We accept payments through Authorize.net. When processing payments, some of "
+"your data will be passed to Authorize.net, including information required to "
+"process or support the payment, such as the purchase total and billing "
+"information."
+msgstr ""
+"Accettiamo pagamenti tramite Authorize.net. Durante l'elaborazione dei "
+"pagamenti alcuni dei tuoi dati verranno passati a Authorize.net, incluse le "
+"informazioni obbligatorie per elaborare o supportare il pagamento come ad "
+"esempio il totale dell'acquisto e i dati di fatturazione."
+
+#: includes/class.yith-wcauthnet-privacy.php:61
+msgid ""
+"Please see the <a href=\"https://www.authorize.net/company/privacy/"
+"\">Authorize.net Privacy Policy</a> for more details."
+msgstr ""
+"Per favore fai riferimento alla <a href=\"https://www.authorize.net/company/"
+"privacy/\">normativa sulla privacy di Authorize.net</a> pe maggiori dettagli."
+
+#: includes/class.yith-wcauthnet-privacy.php:81
+msgid "Authorize.net data"
+msgstr "Dati Authorize.net"
+
+#: includes/class.yith-wcauthnet-privacy.php:114
+msgid "Removed Authorize's customer data."
+msgstr "Rimossi dati del cliente di Authorize."
+
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:195
+msgid "Md5 Hash"
+msgstr "Md5 Hash"
+
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:197
+msgid ""
+"A unique key used to validate the answers from Authorize.net (it can be set "
+"in the \"MD5 Hash\" section). You can activate this mode and set these "
+"details of your Authorize.net dashboard in Account -> Md5 Hash. The check "
+"will be done only in redirect mode, as the API connection is already "
+"protected with SSL."
+msgstr ""
+"Una chiave unica usata per validare le risposte da Authorize.net (può essere "
+"impostata nella sezione \"MD5 Hash\"). Puoi attivare questa modalità ed "
+"impostare questi dettagli del tuo pannello Authorize.net in Account -> Md5 "
+"Hash. Il controllo verrà effettuato solo in modalità reindirizzamento poiché "
+"la connessione API è già protetta con SSL."
+
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:484
+#: includes/legacy/class.yith-wcauthnet-credit-card-gateway.php:486
+msgid "Validation error: MD5 Hash control failed."
+msgstr "Errore validazione: controllo MD5 Hash fallito."
+
+#: init.php:127
+msgid ""
+"%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+"%s è attivo ma non operativo. Il suo funzionamento richiede WooCommerce."
+
+#: plugin-options/credit_card-options.php:29
+msgid "Credit card payment settings"
+msgstr "Impostazioni pagamenti con carte di credito"
+
+#: plugin-options/credit_card-options.php:36
+msgid "Enable YITH Authorize.net"
+msgstr "Attiva YITH Authorize.net"
+
+#: plugin-options/credit_card-options.php:37
+msgid ""
+"Choose whether to enable or not the Authorize.net payment method through "
+"credit cards"
+msgstr ""
+"Scegli se attivare o meno il metodo di pagamento Authorize.net tramite carte "
+"di credito"
+
+#: plugin-options/credit_card-options.php:45
+msgid "Environment"
+msgstr "Ambiente"
+
+#: plugin-options/credit_card-options.php:46
+msgid ""
+"Choose whether to process real transactions or simulated transactions using "
+"a sandbox"
+msgstr ""
+"Scegli se elaborare transazioni reali oppure simulate tramite una sandbox"
+
+#: plugin-options/credit_card-options.php:49
+msgid "Live"
+msgstr "Live"
+
+#: plugin-options/credit_card-options.php:50
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: plugin-options/credit_card-options.php:59
+msgid ""
+"Enter the univocal ID associated to the admin's account.<br/>It can be "
+"retrieved in the \"<a href=\"https://support.authorize.net/s/article/How-do-"
+"I-obtain-my-API-Login-ID-and-Transaction-Key\">API Login ID and Transaction "
+"Key</a>\" section"
+msgstr ""
+"Inserisci l'ID univoco associato all'account dell'amministratore. <br/>Può "
+"essere recuperata nella sezione \"<a href=\"https://support.authorize.net/s/"
+"article/How-do-I-obtain-my-API-Login-ID-and-Transaction-Key\">API Login ID "
+"and Transaction Key</a>\"."
+
+#: plugin-options/credit_card-options.php:66
+msgid ""
+"Enter the unique key used to validate requests to Authorize.net.<br/>It can "
+"be retrieved in the \"<a href=\"https://support.authorize.net/s/article/How-"
+"do-I-obtain-my-API-Login-ID-and-Transaction-Key\">API Login ID and "
+"Transaction Key</a>\" section"
+msgstr ""
+"Inserisci la chiave univoca utilizzata per validare le richieste per "
+"Authorize.net. <br/>Può essere recuperata nella sezione \"<a href=\"https://"
+"support.authorize.net/s/article/How-do-I-obtain-my-API-Login-ID-and-"
+"Transaction-Key\">API Login ID and Transaction Key</a>\""
+
+#: plugin-options/credit_card-options.php:72
+msgid "Transation type"
+msgstr "Tipo di transazione"
+
+#: plugin-options/credit_card-options.php:73
+msgid "Choose whether to capture funds immediately or authorize payment only"
+msgstr "Scegli se prelevare subito o autorizzare soltanto il pagamento"
+
+#: plugin-options/credit_card-options.php:76
+msgid ""
+"Authorize only - Authorize payments without taking money from customer's "
+"account"
+msgstr ""
+"Autorizza soltanto - Autorizza i pagamenti senza prelevare dall'account del "
+"cliente"
+
+#: plugin-options/credit_card-options.php:77
+msgid ""
+"Authorize and capture - Authorize payments and automatically take funds from "
+"customer's account"
+msgstr ""
+"Autorizza e incassa - Autorizza i pagamenti e preleva automaticamente i "
+"fondi dall'account del cliente"
+
+#: plugin-options/credit_card-options.php:86
+msgid "Enable to save a log of the Authorize.net events inside <code>%s</code>"
+msgstr ""
+"Attiva per salvare un log degli eventi Authorize.net in <code>%s</code>"
+
+#: plugin-options/credit_card-options.php:117
+msgid "Customization"
+msgstr "Personalizzazione"
+
+#: plugin-options/credit_card-options.php:125
+msgid "Enter a title to identify this payment method during the checkout"
+msgstr ""
+"Inserisci un titolo per mostrare questo metodo di pagamento durante il "
+"checkout"
+
+#: plugin-options/credit_card-options.php:133
+msgid "Enter an optional description for this payment method"
+msgstr "Inserisci una descrizione opzionale per questo metodo di pagamento"
+
+#: plugin-options/credit_card-options.php:140
+msgid "Order button label"
+msgstr "Etichetta del pulsante Ordina"
+
+#: plugin-options/credit_card-options.php:141
+msgid "Enter the text for the order button"
+msgstr "Inserisci il testo per il pulsante Ordina"
+
+#: plugin-options/credit_card-options.php:149
+msgid "Enable to show credit card icons on Checkout page"
+msgstr ""
+"Attiva per mostrare le icone delle carte di credito nella pagina Checkout"
+
+#: plugin-options/credit_card-options.php:157
+msgid "Credit card icons to show"
+msgstr "Icone carte di credito"
+
+#: plugin-options/credit_card-options.php:158
+msgid "Choose which credit card icon to show on Checkout page"
+msgstr ""
+"Seleziona l'icona della carta di credito da mostrare nella pagina Checkout"
+
+#: plugin-options/video-box.php:23
+msgid "Upgrade to the PREMIUM VERSION"
+msgstr "Aggiorna alla VERSIONE PREMIUM"
+
+#: plugin-options/video-box.php:26 plugin-options/video-box.php:33
+msgid "YITH WooCommerce Authorize.net"
+msgstr "YITH WooCommerce Authorize.net"
+
+#: plugin-options/video-box.php:27
+msgid "Discover the Advanced Features"
+msgstr "Scopri le funzionalità avanzate"
+
+#: plugin-options/video-box.php:28
+msgid ""
+"Upgrade to the PREMIUM VERSION of YITH WooCommerce Authorize.net to benefit "
+"from all features!"
+msgstr ""
+"Aggiorna alla VERSIONE PREMIUM di YITH WooCommerce Authorize.net per "
+"beneficiare di tutte le funzionalità!"
+
+#: plugin-options/video-box.php:35 plugin-options/video-box.php:39
+msgid "Get Support and Pro Features"
+msgstr "Ottieni supporto e funzionalità premium"
+
+#: plugin-options/video-box.php:36
+msgid ""
+"By purchasing the premium version of the plugin, you will take advantage of "
+"the advanced features of the product and you will get one year of free "
+"updates and support through our platform available 24h/24."
+msgstr ""
+"Acquistando la versione premium del plugin potrai approfittare delle "
+"funzionalità avanzate del prodotto e otterrai un anno di aggiornamenti e "
+"supporto gratuito tramite la nostra piattaforma disponibile 24/24."
+
+#: templates/admin/premium.php:221 templates/admin/premium.php:329
+#, fuzzy
+msgid ""
+"Upgrade to the <span class=\"highlight\">premium version</span> of <span "
+"class=\"highlight\">YITH WooCommerce Authorize.net Payment Gateway</span> to "
+"benefit from all features!"
+msgstr ""
+"Aggiorna alla <span class=\"highlight\">versione premium</span>\n"
+"\t\t\t\t\t\t\tdi <span class=\"highlight\">YITH WooCommerce Authorize.net "
+"Payment Gateway</span> per sfruttare tutte le sue funzionalità!"
+
+#: templates/admin/premium.php:225 templates/admin/premium.php:333
+msgid "UPGRADE"
+msgstr "AGGIORNA"
+
+#: templates/admin/premium.php:226 templates/admin/premium.php:334
+msgid "to the premium version"
+msgstr "alla versione premium"
+
+#: templates/admin/premium.php:232
+msgid "Premium Features"
+msgstr "Funzionalità Premium"
+
+#: templates/admin/premium.php:240
+msgid "TRANSACTION MODE"
+msgstr "MODALITÀ TRANSAZIONI"
+
+#: templates/admin/premium.php:244
+#, fuzzy
+msgid ""
+"The customers that buy with Authorize.net could complete their payment in "
+"two ways: on the same page of the store (with the \"API\" mode), or on the "
+"payment page of Authorize.net (with the \"Redirect\" mode)."
+msgstr ""
+"I clienti che acquistano con Authorize.net potranno completare l'ordine in "
+"due modi: sulla stessa pagina dello store (con la modalità API) oppure sulla "
+"pagina dei pagamenti di Authorize.net (con la modalità di reindirizzamento)."
+
+#: templates/admin/premium.php:255
+msgid "PAYMENT WITH CREDIT CARD"
+msgstr "PAGAMENTO CON CARTA DI CREDITO"
+
+#: templates/admin/premium.php:259
+#, fuzzy
+msgid ""
+"The credit card becomes a new way of payment for whoever wants to buy from "
+"your shop. Authorize.net will give to your clients the chance to pay the "
+"order with a new credit card, or select another one already used, storing "
+"its details."
+msgstr ""
+"La carta di credito diventa un nuovo modo di pagare per chiunque voglia "
+"acquistare nel tuo negozio online. Authorize.net darà ai tuoi clienti la "
+"possibilità di pagare l'ordine con una nuova carta di credito, o di "
+"selezionarne una già utilizzata, memorizzandone i dettagli."
+
+#: templates/admin/premium.php:276
+msgid "ECHECK"
+msgstr "ECHECK"
+
+#: templates/admin/premium.php:280
+#, fuzzy
+msgid ""
+"You can activate the eCheck payment method, which will be available for "
+"users during the checkout among the other options."
+msgstr ""
+"Puoi attivare il metodo di pagamento eCheck che sarà disponibile tra le "
+"altre opzioni durante il checkout."
+
+#: templates/admin/premium.php:291
+msgid "ITEMIZED ORDERS"
+msgstr "ORDINI DETTAGLIATI"
+
+#: templates/admin/premium.php:295
+#, fuzzy
+msgid ""
+"An option tailored to show the order details both in the checkout during the "
+"purchase, and later in the invoice. Your clients won't see just the amount "
+"of the order, but also how it is composed."
+msgstr ""
+"Un'opzione ad hoc per mostrare i dettagli dell'ordine sia al checkout "
+"durante l'acquisto che nella fattura generata in seguito. I tuoi clienti non "
+"vedranno soltanto l'ammontare dell'ordine ma anche i dettagli che lo "
+"compongono."
+
+#: templates/admin/premium.php:312
+msgid "REFUND"
+msgstr "RIMBORSI"
+
+#: templates/admin/premium.php:316
+#, fuzzy
+msgid ""
+"The refund is now quick and easy. You will just have to go to the order page "
+"you are interested in, and with the related button, the amount that you will "
+"write will be refunded directly on the client's credit card."
+msgstr ""
+"Ora i rimborsi sono facili e veloci. Dovrai solamente andare nella pagina "
+"dell'ordine che ti interessa e tramite l'apposito pulsante potrai rimborsare "
+"al cliente l'importo da te specificato direttamente sulla sua carta di "
+"credito."
+
+#: templates/admin/settings-tab.php:21
+msgid "Save changes"
+msgstr "Salva modifiche"
+
+#: templates/authorize-net-payment-form.php:76
+msgid "Pay on Authorize.net"
+msgstr "Paga su Authorize.net"
+
+#. Plugin Name of the plugin/theme
+msgid "YITH WooCommerce Authorize.net Payment Gateway"
+msgstr "YITH WooCommerce Authorize.net Payment Gateway"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-authorize-net/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-authorize-net/"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH WooCommerce Authorize.net Payment Gateway</strong></code> "
+"adds a new gateway to your e-commerce allowing you to accept payments "
+"through credit cards and process transactions with Authorize.net "
+"reliability. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more "
+"plugins for your e-commerce on <strong>YITH</strong></a>"
+msgstr ""
+"<code><strong>YITH WooCommerce Authorize.net Payment Gateway</strong></code> "
+"aggiunge un nuovo gateway al tuo e-commerce permettendoti di accettare i "
+"pagamenti con carte di credito ed elaborare le transazioni con "
+"l'affidabilità di Authorize.net. <a href=\"https://yithemes.com/\" target="
+"\"_blank\">Ottieni più plugin per il tuo e-commerce su <strong>YITH</"
+"strong></a>"
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#~ msgid "Show log files"
+#~ msgstr "Mostra i file del log"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Yes"
+#~ msgstr "Sì"
+
+#~ msgid "Defined WP_CACHE"
+#~ msgstr "Defined WP_CACHE"
+
+#~ msgid "PHP error_log file"
+#~ msgstr "PHP error_log file"
+
+#~ msgid "WP debug.log file"
+#~ msgstr "WP debug.log file"
+
+#~ msgid ""
+#~ "The system check cannot determine which %1$s version is installed due to "
+#~ "a connection issue between your site and our server."
+#~ msgstr ""
+#~ "Non è stato possibile determinare con i controlli di sistema quale "
+#~ "versione di %1$s è installata a causa di un problema di connessione fra "
+#~ "il tuo sito e il nostro server."
+
+#~ msgid "Contact your hosting company in order to install it."
+#~ msgstr "Contatta il tuo hosting per installarlo."
+
+#~ msgid ""
+#~ "The system check cannot determine which %1$s version is installed because "
+#~ "%2$s module is disabled. Ask your hosting company to enable it."
+#~ msgstr ""
+#~ "Non è stato possibile determinare quale versione di %1$s è installata in "
+#~ "quanto il modulo %2$s è disattivato. Chiedi al tuo servizio hosting di "
+#~ "attivarlo."
+
+#~ msgctxt "Tooltip in the \"Dimensions\" field"
+#~ msgid "Link values together"
+#~ msgstr "Collega i valori"
+
+#~ msgctxt "Position in the \"Dimensions\" field"
+#~ msgid "Left"
+#~ msgstr "A sinistra"
+
+#~ msgctxt "Position in the \"Dimensions\" field"
+#~ msgid "Bottom"
+#~ msgstr "In basso"
+
+#~ msgctxt "Position in the \"Dimensions\" field"
+#~ msgid "Right"
+#~ msgstr "A destra"
+
+#~ msgctxt "Position in the \"Dimensions\" field"
+#~ msgid "Top"
+#~ msgstr "In alto"
+
+#~ msgctxt "YES/NO button: use MAX 3 characters!"
+#~ msgid "YES"
+#~ msgstr "SÌ"
+
+#~ msgctxt "YES/NO button: use MAX 3 characters!"
+#~ msgid "NO"
+#~ msgstr "NO"
+
+#~ msgid ":) Thanks!"
+#~ msgstr ":) Grazie!"
+
+#~ msgid "help us by leaving a five-star rating"
+#~ msgstr "aiutaci lasciando una valutazione 5 stelle"
+
+#~ msgid "to keep updating and improving the plugin. Please,"
+#~ msgstr "per continuare ad aggiornare e a migliorare il plugin. Per favore,"
+
+#~ msgid "We need your support"
+#~ msgstr "Abbiamo bisogno del tuo supporto"
+
+#~ msgid "Output IP Address"
+#~ msgstr "Indirizzo IP (output)"
+
+#~ msgid "Site URL"
+#~ msgstr "URL del sito"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid ""
+#~ "The system check has detected some compatibility issues on your "
+#~ "installation.%1$sClick here%2$s to know more"
+#~ msgstr ""
+#~ "Il controllo del sistema ha rilevato dei problemi di compatibilità sulla "
+#~ "tua installazione. Per maggiori informazioni %1$sfai clic qui%2$s"
+
+#~ msgid "Warning!"
+#~ msgstr "Attenzione!"
+
+#~ msgid "WooCommerce"
+#~ msgstr "WooCommerce"
+
+#~ msgid "YITH Plugins"
+#~ msgstr "Plugin YITH"
+
+#~ msgid "URL FOpen"
+#~ msgstr "URL FOpen"
+
+#~ msgid "OPCache Save Comments"
+#~ msgstr "OPCache Save Comments"
+
+#~ msgid "Iconv Module"
+#~ msgstr "Iconv Module"
+
+#~ msgid "GD Library"
+#~ msgstr "GD Library"
+
+#~ msgid "ImageMagick Version"
+#~ msgstr "ImageMagick Version"
+
+#~ msgid "MultiByte String"
+#~ msgstr "MultiByte String"
+
+#~ msgid "SimpleXML"
+#~ msgstr "SimpleXML"
+
+#~ msgid "WordPress Cron"
+#~ msgstr "WordPress Cron"
+
+#~ msgid "TLS Version"
+#~ msgstr "Versione TLS"
+
+#~ msgid "PHP Version"
+#~ msgstr "Versione PHP"
+
+#~ msgid "Available Memory"
+#~ msgstr "Memoria disponibile"
+
+#~ msgid "WooCommerce Version"
+#~ msgstr "Versione WooCommerce"
+
+#~ msgid "WordPress Version"
+#~ msgstr "Versione WordPress"
+
+#~ msgid "System Status"
+#~ msgstr "Stato del sistema"
+
+#~ msgid "%1$s (#%2$s &ndash; %3$s)"
+#~ msgstr "%1$s (#%2$s &ndash; %3$s)"
+
+#~ msgid "Search Customers"
+#~ msgstr "Cerca clienti"
+
+#~ msgid "Back to top"
+#~ msgstr "Torna su"
+
+#~ msgid "Back to System panel"
+#~ msgstr "Torna al pannello del sistema"
+
+#~ msgid "Show full PHPInfo"
+#~ msgstr "Mostra PHPInfo"
+
+#~ msgid ""
+#~ "Read more %1$shere%2$s or contact your hosting company in order to "
+#~ "increase it."
+#~ msgstr ""
+#~ "Per approfondimenti fai clic %1$squi%2$s o contatta il tuo hosting per "
+#~ "aumentarlo."
+
+#~ msgid "Contact your hosting company in order to enable it."
+#~ msgstr "Per attivarlo contatta il tuo servizio hosting."
+
+#~ msgid "Remove %1$s from %2$s file"
+#~ msgstr "Rimuovi %1$s dal file %2$s"
+
+#~ msgid "Contact your hosting company in order to update it."
+#~ msgstr "Contatta il tuo servizio hosting per aggiornarlo."
+
+#~ msgid ""
+#~ "Update it to the latest version in order to benefit of all new features "
+#~ "and security updates."
+#~ msgstr ""
+#~ "Per beneficiare di tutte le nuove funzionalità e degli aggiornamenti di "
+#~ "sicurezza, aggiorna all'ultima versione."
+
+#~ msgid "%1$s needs at least %2$s version"
+#~ msgstr "%1$s necessita almeno della versione %2$s"
+
+#~ msgid ""
+#~ "For optimal functioning of our plugins, we suggest setting at least %s of "
+#~ "available memory"
+#~ msgstr ""
+#~ "Per il funzionamento ottimale dei nostri plugin consigliamo di impostare "
+#~ "almeno %s di memoria disponibile"
+
+#~ msgid "%1$s needs at least %2$s of available memory"
+#~ msgstr "%1$s necessita di almeno %2$s di memoria disponibile"
+
+#~ msgid "%1$s needs %2$s enabled"
+#~ msgstr "%1$s necessita l'attivazione di %2$s"
+
+#~ msgid "Disabled"
+#~ msgstr "Disattivato"
+
+#~ msgid "Enabled"
+#~ msgstr "Attivato"
+
+#~ msgid "YITH System Information"
+#~ msgstr "YITH System Information"
+
+#~ msgid "Remove All"
+#~ msgstr "Rimuovi tutto"
+
+#~ msgid "Add All"
+#~ msgstr "Aggiungi tutto"
+
+#~ msgid "Custom:"
+#~ msgstr "Personalizzato:"
+
+#~ msgctxt "Button label"
+#~ msgid "Close"
+#~ msgstr "Chiudi"
+
+#~ msgctxt "Plugin FW"
+#~ msgid "Latest update released on"
+#~ msgstr "Ultimo aggiornamento rilasciato il"
+
+#~ msgctxt "Plugin FW"
+#~ msgid "View Changelog"
+#~ msgstr "Visualizza changelog"
+
+#~ msgid ""
+#~ "An error has occurred, which probably means the feed is down. Try again "
+#~ "later."
+#~ msgstr ""
+#~ "Si è verificato un errore. Probabilmente il feed non è disponibile. "
+#~ "Riprova più tardi."
+
+#~ msgid "RSS Error:"
+#~ msgstr "Errore RSS:"
+
+#~ msgid "Latest news from YITH Blog"
+#~ msgstr "Ultime novità dal blog YITH"
+
+#~ msgid "YITH Latest Updates"
+#~ msgstr "Ultimi aggiornamenti YITH"
+
+#~ msgctxt "[gutenberg]: Category Name"
+#~ msgid "YITH"
+#~ msgstr "YITH"
+
+#~ msgid "License"
+#~ msgstr "Licenza"
+
+#~ msgctxt "Action links"
+#~ msgid "Settings"
+#~ msgstr "Impostazioni"
+
+#~ msgctxt "Plugin Row Meta"
+#~ msgid "Premium version"
+#~ msgstr "Versione premium"
+
+#~ msgctxt "Plugin Row Meta"
+#~ msgid "Support"
+#~ msgstr "Supporto"
+
+#~ msgctxt "Plugin Row Meta"
+#~ msgid "Documentation"
+#~ msgstr "Documentazione"
+
+#~ msgctxt "Plugin Row Meta"
+#~ msgid "Live Demo"
+#~ msgstr "Live Demo"
+
+#~ msgid "Reset Defaults"
+#~ msgstr "Reimposta predefiniti"
+
+#~ msgid "(Default: <i %s></i> )"
+#~ msgstr "(Predefinito: <i %s></i> )"
+
+#~ msgid "(Default: %s <img src=\"%s\"/>)"
+#~ msgstr "(Predefinito: %s <img src=\"%s\"/>)"
+
+#~ msgid "Image preview"
+#~ msgstr "Anteprima immagine"
+
+#~ msgid "Reset"
+#~ msgstr "Reimposta"
+
+#~ msgid "Upload"
+#~ msgstr "Carica"
+
+#~ msgid "Right Sidebar"
+#~ msgstr "Barra laterale destra"
+
+#~ msgid "Choose a sidebar"
+#~ msgstr "Scegli una barra laterale"
+
+#~ msgid "Left Sidebar"
+#~ msgstr "Barra laterale sinistra"
+
+#~ msgid "No sidebar"
+#~ msgstr "Nessuna barra laterale"
+
+#~ msgid "Right sidebar"
+#~ msgstr "Barra laterale destra"
+
+#~ msgid "Left sidebar"
+#~ msgstr "Barra laterale sinistra"
+
+#~ msgid "Delete"
+#~ msgstr "Elimina"
+
+#~ msgid "Add images"
+#~ msgstr "Aggiungi immagini"
+
+#~ msgid "Add to gallery"
+#~ msgstr "Aggiungi alla galleria"
+
+#~ msgid "Add Images to Gallery"
+#~ msgstr "Aggiungi immagini alla galleria"
+
+#~ msgid "Delete image"
+#~ msgstr "Elimina immagine"
+
+#~ msgid "Set Default"
+#~ msgstr "Imposta predefinito"
+
+#~ msgid "Do you want to remove the custom tab?"
+#~ msgstr "Vuoi rimuovere la scheda personalizzata?"
+
+#~ msgid "Add custom product tab"
+#~ msgstr "Aggiungi scheda del prodotto personalizzata"
+
+#~ msgid "Content of the tab. (HTML is supported)"
+#~ msgstr "Contenuto della scheda. (Supporta HTML)"
+
+#~ msgid "Value"
+#~ msgstr "Valore"
+
+#~ msgid "Remove"
+#~ msgstr "Rimuovi"
+
+#~ msgid "Expand all"
+#~ msgstr "Espandi tutto"
+
+#~ msgid "Close all"
+#~ msgstr "Chiudi tutto"
+
+#~ msgid "Search Product"
+#~ msgstr "Cerca prodotto"
+
+#~ msgid "Search Posts"
+#~ msgstr "Cerca articoli"
+
+#~ msgid ""
+#~ "From now on, you can find the option panel of YITH plugins in YITH "
+#~ "Plugins menu.\n"
+#~ "                                    Every time one of our plugins is "
+#~ "added, a new entry will be added to this menu.\n"
+#~ "                                    For example, after the update, plugin "
+#~ "options (such as for YITH WooCommerce Wishlist, YITH WooCommerce Ajax "
+#~ "Search, etc.)\n"
+#~ "                                    will be moved from previous location "
+#~ "to YITH Plugins tab."
+#~ msgstr ""
+#~ "Da ora in poi, troverai tutte le opzioni dei tuoi plugin nel menu Plugin "
+#~ "YITH. Ogni volta che aggiornerai i nostri plugin, troverai una nuova voce "
+#~ "in questo menu. Per esempio, dopo l'aggiornamento, le opzioni del plugin "
+#~ "(come per esempio quelle di YITH WooCommerce Wishlist, YITH WooCommerce "
+#~ "Ajax Search etc.) saranno trasferite nella scheda Plugin YITH."
+
+#~ msgid "Plugins Upgraded"
+#~ msgstr "Plugin aggiornati"
+
+#~ msgid "and"
+#~ msgstr "e"
+
+#~ msgid "Discover all our plugins available on:"
+#~ msgstr "Scopri tutti i plugin disponibili su:"
+
+#~ msgid ""
+#~ "From now on, you can find all plugin options in YITH Plugins menu.\n"
+#~ "                                     Plugin customization settings will "
+#~ "be available as a new entry in YITH Plugins menu."
+#~ msgstr ""
+#~ "Da ora in poi, puoi trovare tutte le opzioni dei tuoi plugin nel menu "
+#~ "Plugin YITH. Troverai le impostazioni di personalizzazione sotto una "
+#~ "nuova voce nel menu Plugin YITH."
+
+#~ msgid "Plugins Activated"
+#~ msgstr "Plugin attivati"
+
+#~ msgid "Sorting successful."
+#~ msgstr "Ordinamento effettuato con successo."
+
+#~ msgid "Sorry, import is disabled."
+#~ msgstr "Ci dispiace, l'importazione è disabilitata."
+
+#~ msgid "The added file is not valid."
+#~ msgstr "Il file aggiunto non è valido."
+
+#~ msgid "An error has occurred during import. Please try again."
+#~ msgstr "Si è verificato un errore durante l'importazione. Prova di nuovo."
+
+#~ msgid "Database imported correctly."
+#~ msgstr "Database importato correttamente."
+
+#~ msgid "Element updated correctly."
+#~ msgstr "Elemento aggiornato correttamente."
+
+#~ msgid "Element deleted correctly."
+#~ msgstr "Elemento rimosso correttamente."
+
+#~ msgid "Settings reset"
+#~ msgstr "Impostazioni azzerate"
+
+#~ msgid "Settings saved"
+#~ msgstr "Impostazioni salvate"
+
+#~ msgid ""
+#~ "The element you have entered already exists. Please, enter another name."
+#~ msgstr ""
+#~ "L'elemento inserito esiste già. Per favore, inserisci un altro nome."
+
+#~ msgid "Are you sure?"
+#~ msgstr "Sei sicuro?"
+
+#~ msgid "Reset to default"
+#~ msgstr "Ripristina configurazione predefinita"
+
+#~ msgid ""
+#~ "If you continue with this action, you will reset all options in this page."
+#~ msgstr ""
+#~ "Se prosegui con questa azione, tutte le opzioni di questa pagina saranno "
+#~ "reimpostate."
+
+#~ msgid "Save Changes"
+#~ msgstr "Salva modifiche"
+
+#~ msgid "How to install premium version"
+#~ msgstr "Come installare la versione premium"
+
+#~ msgid "Plugin Settings"
+#~ msgstr "Impostazioni plugin"
+
+#~ msgid "The changes you have made will be lost if you leave this page."
+#~ msgstr "Perderai tutti i cambiamenti effettuati se lasci questa pagina."
+
+#~ msgid "Upload multiple files"
+#~ msgstr "Carica file multipli"
+
+#~ msgid "Add %s from images"
+#~ msgstr "Aggiungi %s dalle immagini"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Show frontend of the %s"
+#~ msgstr "Mostra frontend di %s"
+
+#~ msgid "Quick links"
+#~ msgstr "Link rapidi"
+
+#~ msgid "layout settings"
+#~ msgstr "impostazioni di layout"
+
+#~ msgid "Layout for single page of this portfolio"
+#~ msgstr "Layout per pagina singola per questo portfolio"
+
+#~ msgid "Single layout"
+#~ msgstr "Layout singolo"
+
+#~ msgid "Set univocal name for each category page URL."
+#~ msgstr ""
+#~ "Imposta un nome univoco per l'URL della pagina di ciascuna categoria."
+
+#~ msgid "Taxonomy Rewrite"
+#~ msgstr "Riscrivi tassonomia"
+
+#~ msgid ""
+#~ "If you want to use categories in the portfolio, set a name for taxonomy. "
+#~ "Name should be a slug (must not contain capital letters nor spaces) and "
+#~ "must not be more than 32 characters long (database structure restriction)."
+#~ msgstr ""
+#~ "Se vuoi aggiungere delle categorie nel portfolio, imposta un nome per la "
+#~ "tassonomia. Il nome dovrà essere in forma di slug (non deve contenere "
+#~ "caratteri maiuscoli né spazi) e non più lungo di 32 caratteri "
+#~ "(restrizione di database)."
+
+#~ msgid "Taxonomy"
+#~ msgstr "Tassonomia"
+
+#~ msgid "Set a label in plural (title of portfolio if empty)"
+#~ msgstr "Imposta un'etichetta plurale (titolo del portfolio se vuoto)"
+
+#~ msgid "Label in Plural"
+#~ msgstr "Etichetta plurale"
+
+#~ msgid "Set a label in singular (title of portfolio if empty)"
+#~ msgstr "Imposta un'etichetta singolare (titolo del portfolio se vuoto)"
+
+#~ msgid "Label in Singular"
+#~ msgstr "Etichetta singolare"
+
+#~ msgid ""
+#~ "Univocal identification name in the URL for each product (slug from post "
+#~ "if empty)"
+#~ msgstr ""
+#~ "Nome identificativo univoco nell'URL per singolo prodotto (usa slug dal "
+#~ "post se vuoto)"
+
+#~ msgid "Rewrite"
+#~ msgstr "Riscrivi"
+
+#~ msgid "Layout for this %s"
+#~ msgstr "Layout per questo %s"
+
+#~ msgid "Type"
+#~ msgstr "Tipologia"
+
+#~ msgid "%s Settings"
+#~ msgstr "Impostazioni %s"
+
+#~ msgid "Categories"
+#~ msgstr "Categorie"
+
+#~ msgid "Category"
+#~ msgstr "Categoria"
+
+#~ msgid "New Category Name"
+#~ msgstr "Nuovo nome categoria"
+
+#~ msgid "Add New Category"
+#~ msgstr "Aggiungi nuova categoria"
+
+#~ msgid "Update Category"
+#~ msgstr "Aggiorna categoria"
+
+#~ msgid "Edit Category"
+#~ msgstr "Modifica categoria"
+
+#~ msgid "Parent Category:"
+#~ msgstr "Categoria genitore:"
+
+#~ msgid "Parent Category"
+#~ msgstr "Categoria genitore"
+
+#~ msgid "All Categories"
+#~ msgstr "Tutte le categorie"
+
+#~ msgid "Search Categories"
+#~ msgstr "Cerca categorie"
+
+#~ msgctxt "taxonomy singular name"
+#~ msgid "Category"
+#~ msgstr "Categoria"
+
+#~ msgctxt "taxonomy general name"
+#~ msgid "%s Categories"
+#~ msgstr "Categorie %s"
+
+#~ msgid "No %s found in Trash"
+#~ msgstr "Nessun %s trovato nel cestino"
+
+#~ msgid "No %s found"
+#~ msgstr "Nessun %s trovato"
+
+#~ msgid "Search %s"
+#~ msgstr "Cerca %s"
+
+#~ msgid "View %s"
+#~ msgstr "Visualizza %s"
+
+#~ msgid "All %s"
+#~ msgstr "Tutti %s"
+
+#~ msgid "New %s"
+#~ msgstr "Nuovo %s"
+
+#~ msgid "Edit %s"
+#~ msgstr "Modifica %s"
+
+#~ msgid "Add New %s"
+#~ msgstr "Aggiungi nuovo %s"
+
+#~ msgid "Add %s"
+#~ msgstr "Aggiungi %s"
+
+#~ msgctxt "Privacy Policy Content"
+#~ msgid "Payments"
+#~ msgstr "Pagamenti"
+
+#~ msgctxt "Privacy Policy Content"
+#~ msgid "What we share with others"
+#~ msgstr "Cosa condividiamo con altri"
+
+#~ msgctxt "Privacy Policy Content"
+#~ msgid "Who on our team has access"
+#~ msgstr "Chi del nostro team ha accesso"
+
+#~ msgctxt "Privacy Policy Content"
+#~ msgid "What we collect and store"
+#~ msgstr "Cosa raccogliamo e conserviamo"
+
+#~ msgctxt "Privacy Policy Content"
+#~ msgid ""
+#~ "This sample language includes the basics around what personal data your "
+#~ "store may be collecting, storing and sharing, as well as who may have "
+#~ "access to that data. Depending on what settings are enabled and which "
+#~ "additional plugins are used, the specific information shared by your "
+#~ "store will vary. We recommend consulting with a lawyer when deciding what "
+#~ "information to disclose on your privacy policy."
+#~ msgstr ""
+#~ "Questo esempio include gli elementi di base sulla raccolta dei dati "
+#~ "personali, la memorizzazione e la condivisione, nonché su chi è "
+#~ "autorizzato ad accedere a tali dati. In base alle impostazioni abilitate "
+#~ "e ai moduli di estensione aggiuntivi utilizzati, le informazioni "
+#~ "specifiche condivise dal nostro negozio possono variare. Ti consigliamo "
+#~ "di consultare un legale al momento di decidere quali informazioni "
+#~ "divulgare nell'informativa sulla privacy."
+
+#~ msgctxt "Privacy Policy Guide Title"
+#~ msgid "YITH Plugins"
+#~ msgstr "Plugin di YITH"

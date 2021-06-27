@@ -1,0 +1,1 @@
+<?php echo $module->gallery( do_shortcode( "[gallery {$settings->shortcode_atts}]" ) ); ?>

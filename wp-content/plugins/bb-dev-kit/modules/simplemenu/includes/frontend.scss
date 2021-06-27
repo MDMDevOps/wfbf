@@ -1,0 +1,71 @@
+$color: false !default;
+$color_hover : false !default;
+$align : false !default;
+$iconalign : false !default;
+$iconmargin_left : 0 !default;
+$iconmargin_right : 0 !default;
+$iconmargin_top : 0 !default;
+$iconmargin_bottom : 0 !default;
+$iconsize : 1em !default;
+$iconalignitems : normal !default;
+
+@if $color {
+	a, a:link {
+		color: $color;
+	}
+}
+@if $color_hover {
+	a, a:link {
+		&:hover,
+		&:focus {
+			color: $color_hover;
+		}
+		opacity: $iconmargin_right;
+	}
+}
+@if $iconalignitems {
+	a, a:link {
+		align-items: $iconalignitems;
+	}
+}
+
+.menu-item-icon {
+	margin-left: $iconmargin_left;
+	margin-right: $iconmargin_right;
+	margin-top: $iconmargin_top;
+	margin-bottom: $iconmargin_bottom;
+	font-size: $iconsize;
+	width: $iconsize;
+}
+
+@if $iconalign == 'left' {
+	.menu-item-icon {
+		order: 1;
+	}
+	.menu-item-content {
+		order: 2;
+	}
+}
+
+
+@if $align == 'right' {
+	.menu-item-content {
+		flex: 1 0 auto;
+		text-align: right;
+	}
+}
+@if $align == 'left' {
+	.menu-item-content {
+		flex: 1 0 auto;
+		text-align: left;
+	}
+}
+@if $align == 'center' {
+	.dk-menu-item a {
+		justify-content: center;
+		text-align: center;
+	}
+	.menu-item-content {
+		flex: unset;
+	}
+}

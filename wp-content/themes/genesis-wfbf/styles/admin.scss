@@ -1,0 +1,19 @@
+@import 'import/variables';
+@import 'import/mixins';
+
+.acf-flexible-content {
+	@import 'import/grid';
+	> .values {
+		@include clearfix();
+		@include flexbox( 'row' );
+		flex-wrap: wrap;
+		.layout {
+			// margin-top: 0;
+			// margin-bottom: 20px;
+			margin: 0 0 20px -1px;
+			&:last-child {
+				margin-bottom: 20px;
+			}
+		}
+	}
+};
