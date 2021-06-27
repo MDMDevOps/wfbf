@@ -135,8 +135,6 @@ class Plugin {
 			// Attempt to construct to path
 			$path = self::path( sprintf( 'includes/%s/', strtolower( $reflection->getShortName() ) ) );
 		}
-
-
 		// Bail if our path is not a directory
 		if( !is_dir( $path ) ) {
 			return array();

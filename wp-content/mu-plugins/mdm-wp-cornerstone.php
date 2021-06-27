@@ -67,6 +67,8 @@ function mdm_wp_cornerstone_run() {
 	register_activation_hook( __FILE__, array( '\\Mdm\\Wp\\Cornerstone\\Activator', 'activate' ) );
 	// Register Admin Module
 	call_user_func( array( '\\Mdm\\Wp\\Cornerstone\\Admin', 'register' ) );
+
+	call_user_func( array( '\\Mdm\\Wp\\Cornerstone\\FLBuilder', 'register' ) );
 	// Register Settings Module
 	call_user_func( array( '\\Mdm\\Wp\\Cornerstone\\Settings', 'register' ) );
 	// Register Customizer Module
