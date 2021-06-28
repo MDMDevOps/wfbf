@@ -24,7 +24,7 @@ load_child_theme_textdomain( 'enterprise', apply_filters( 'child_theme_textdomai
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Enterprise Pro Theme', 'enterprise' ) );
 define( 'CHILD_THEME_URL', 'http://my.studiopress.com/themes/enterprise/' );
-define( 'CHILD_THEME_VERSION', '2.2.5' );
+define( 'CHILD_THEME_VERSION', '2.2.6' );
 add_theme_support( 'genesis-accessibility', array( '404-page', 'drop-down-menu', 'headings', 'rems', 'search-form' ) );
 
 // Add viewport meta tag for mobile browsers.
