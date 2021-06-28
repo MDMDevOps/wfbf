@@ -1,5 +1,7 @@
 $color: false !default;
 $color_hover : false !default;
+$bg_color: false !default;
+$bg_color_hover : false !default;
 $align : false !default;
 $iconalign : false !default;
 $iconmargin_left : 0 !default;
@@ -20,7 +22,17 @@ $iconalignitems : normal !default;
 		&:focus {
 			color: $color_hover;
 		}
-		opacity: $iconmargin_right;
+	}
+}
+@if $bg_color {
+	li {
+		background-color: $bg_color_hover;
+	}
+}
+@if $bg_color_hover {
+	li:hover,
+	li:focus {
+		background-color: $bg_color_hover;
 	}
 }
 @if $iconalignitems {
