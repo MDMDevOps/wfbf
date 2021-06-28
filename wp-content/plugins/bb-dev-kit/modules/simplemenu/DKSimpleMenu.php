@@ -66,7 +66,7 @@ class DKSimpleMenu extends Module {
 	public static function register() {
 		\FLBuilder::register_module( __CLASS__, [
 			'general' => [
-				'title' => __( 'iframe', 'bb_dev_kit' ),
+				'title' => __( 'General', 'bb_dev_kit' ),
 				'sections' => [
 					'general'=> [
 						'title' => '',
@@ -106,16 +106,19 @@ class DKSimpleMenu extends Module {
 								'show_reset' => true,
 								'show_alpha' => true
 							],
-							'linkpadding' => [
-								'type' => 'dimension',
-								'label' => __('Menu Item Padding', 'bb_dev_kit'),
-								'description' => 'px',
-								'responsive' => true,
-								'slider' => [
-									'min' => 0,
-									'max' => 100,
-									'step' => 1,
-								],
+							'bg_color' => [
+								'type' => 'color',
+								'label' => __('Background Color', 'bb_dev_kit'),
+								'default' => '',
+								'show_reset' => true,
+								'show_alpha' => true
+							],
+							'bg_color_hover' => [
+								'type' => 'color',
+								'label' => __('Background Color Hover', 'bb_dev_kit'),
+								'default' => '',
+								'show_reset' => true,
+								'show_alpha' => true
 							],
 							'icon' => [
 								'type' => 'icon',
@@ -174,7 +177,7 @@ class DKSimpleMenu extends Module {
 			],
 		]);
 		\FLBuilder::register_settings_form( __CLASS__ . '\menu_items', [
-			'title' => __( 'Info Cards', 'bb_dev_kit' ),
+			'title' => __( 'Options', 'bb_dev_kit' ),
 			'tabs'  => [
 				'general' => [
 					'title' => __( 'Options', 'bb_dev_kit' ),
